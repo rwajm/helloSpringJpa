@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<footer th:fragment="footer" style="align-content: center; text-align: left; font-size: 0.9rem; color: #333333;">
+    <p th:text="|실습 수행 일시: ${#temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 (E) a hh:mm:ss')} │ 학번: 2291147 │ 성명: 김지민|" style="margin-left: 0.5rem;"></p>
+</footer>
+</html>
